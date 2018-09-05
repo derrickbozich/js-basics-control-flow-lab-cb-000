@@ -9,3 +9,7 @@ function scuberGreetingForFeet(value){
     return 'No can do.';
   }
 }
+
+function ternaryCheckCity(city) {
+  city == "NYC" ? true : false
+}

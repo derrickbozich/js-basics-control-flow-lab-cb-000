@@ -13,3 +13,14 @@ function scuberGreetingForFeet(value){
 function ternaryCheckCity(city) {
   return city === "NYC" ? "Ok, sounds good." : "No go."
 }
+
+function switchOnCharmFromTip(tip) {
+  if (tip > 5) {
+    return "This one is on me!";
+  } else if (tip < 5 && tip > 2) {
+    return "I will gladly take your thirty bucks.";
+  } else  {
+    return 'No can do.';
+  }
+
+}

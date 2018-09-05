@@ -16,11 +16,11 @@ function ternaryCheckCity(city) {
 
 function switchOnCharmFromTip(tip) {
   if (tip > 5) {
-    return "This one is on me!";
+    return "Thank you so much.";
   } else if (tip < 5 && tip > 2) {
-    return "I will gladly take your thirty bucks.";
+    return  "Thank you.";
   } else  {
-    return 'No can do.';
+    return "Bye.";
   }
 
 }

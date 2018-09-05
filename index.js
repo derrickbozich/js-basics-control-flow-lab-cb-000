@@ -6,6 +6,7 @@ function scuberGreetingForFeet(value){
     charge = "This one is on me!"
   } else if (value > 2000) {
     charge = "I will gladly take your thirty bucks."
-
+  } else if (value > 2500)  {
+    
   }
 }

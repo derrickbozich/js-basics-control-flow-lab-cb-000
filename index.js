@@ -9,4 +9,5 @@ function scuberGreetingForFeet(value){
   } else if (value > 2500)  {
     charge = 'No can do.';
   }
+  charge;
 }
